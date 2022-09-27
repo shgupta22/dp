@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 public class BestSum {
+    /**
+     *
+     * For Some Corner cases Memoization doesn't work
+     */
     public static void main(String[] args) {
         System.out.println(bestSum_rec(7, List.of(5,3,4,7)));
         System.out.println(bestSum_rec(8, List.of(2,3,5)));
@@ -16,6 +20,8 @@ public class BestSum {
         System.out.println(bestSum_mem(8, List.of(2,3,5), new HashMap<>()));
         System.out.println(bestSum_mem(8, List.of(1,4,5), new HashMap<>()));
         System.out.println(bestSum_mem(100, List.of(1,2,5,25), new HashMap<>()));
+        System.out.println(bestSum_mem(8, List.of(2,3,5), new HashMap<>()));
+        System.out.println(bestSum_mem(300, List.of(7,14), new HashMap<>()));
     }
 
     /**

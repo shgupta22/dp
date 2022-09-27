@@ -1,6 +1,7 @@
 package tabulation;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class BestSum {
@@ -9,6 +10,15 @@ public class BestSum {
         System.out.println(bestSum(8, List.of(2,3,5)));
         System.out.println(bestSum(8, List.of(1,4,5)));
         System.out.println(bestSum(100, List.of(1,2,5,25)));
+        ///////
+        System.out.println("**********");
+        System.out.println(bestSum(100, List.of(1,2,5,25))); //[25, 25, 25, 25]
+        System.out.println(bestSum(7, List.of(2,3,4,7)));//[7]
+        System.out.println(bestSum(7, List.of(1,2,3,4,5)));//[5, 2]
+        System.out.println(bestSum(8, List.of(2,3,5)));//[5, 3]
+        System.out.println(bestSum(7, List.of(2,3,4,5)));//[4, 2]
+        System.out.println(bestSum(7, List.of(2,3)));
+        System.out.println(bestSum(300, List.of(7,14)));
     }
 
     public static List<Integer> bestSum(int target, List<Integer> numbers) {
