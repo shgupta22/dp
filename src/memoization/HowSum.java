@@ -29,8 +29,7 @@ public class HowSum {
         if (targetSum == 0) return new ArrayList<>();
         if (targetSum < 0) return null;
 
-        for (int num :
-                numbers) {
+        for (int num : numbers) {
             int remainder = targetSum - num;
             List<Integer> remainderResult = howSum(remainder, numbers);
             if (remainderResult != null) {
