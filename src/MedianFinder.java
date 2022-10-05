@@ -57,7 +57,7 @@ public class MedianFinder {
 
         MedianFinder medianFinder = new MedianFinder();
 
-        /*medianFinder.addNum(3);
+        medianFinder.addNum(3);
         System.out.println(medianFinder);
         medianFinder.addNum(2);
         System.out.println(medianFinder);
@@ -67,7 +67,7 @@ public class MedianFinder {
         System.out.println(medianFinder.findMedian());
         medianFinder.addNum(4);
         System.out.println(medianFinder);
-        System.out.println(medianFinder.findMedian());*/
+        System.out.println(medianFinder.findMedian());
 
         medianFinder.addNum(1);
         System.out.println(medianFinder);
