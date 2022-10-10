@@ -12,6 +12,8 @@ public class CanConstruct {
         System.out.println(canConstruct_mem("abcdef", List.of("ab", "abc", "cd", "def", "abcd"), new HashMap<>()));
         System.out.println(canConstruct_mem("skateboard", List.of("bo", "rd", "ate", "t", "ska","sk","boar"), new HashMap<>()));
         System.out.println(canConstruct_mem("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", List.of("e", "ee", "eee", "eeee", "eeeeee"), new HashMap<>()));
+        System.out.println(canConstruct_mem("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab",
+                List.of("a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"), new HashMap<>()));
     }
 
     /**
